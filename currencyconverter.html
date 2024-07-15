@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="currencyconverter.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Currency Converter </h2>
+        <form>
+            <div class="amount">
+                <p>Enter Amount</p>
+                <input  id="input"  value="100" type="text">
+                <div class="dropdown">
+                    <div class="from">
+                    <p>From</p>
+                        <img src="https://flagsapi.com/US/flat/64.png">
+                    <select name="from">
+                        <!-- <option value="INR">INR</option>
+                        <option value="USD">USD</option>
+                        <option value="EUR">EUR</option>
+                        <OPTION value="AUD">AUD</OPTION> -->
+                        <!-- the above commented options are deleted as options already accesed through the codes.js -->
+                    </select>
+                    </div>
+                          <img id="exx"  src="exx.png">
+                    <div class="to">
+                    <p>To</p>
+                        <img src="https://flagsapi.com/IN/flat/64.png">
+                        <select name="to">
+                        <!-- <optio n value="INR">INR</option>
+                        <option value="USD">USD</option>
+                        <option value="EUR">EUR</option>
+                        <OPTION value="AUD">AUD</OPTION> -->
+                    </select>
+                    </div>
+                </div>
+                <div class="INR">
+                    <p id="msg">1USD = 83.03849797 INR</p>
+                    <button><b>Get Exchange Rate</b></button>
+                </div>
+
+            </div>
+        </form>
+    </div>
+    
+</body>
+<script src="codes.js"></script>
+<script src="currencyconverter.js"> 
+</script>
+</html> 
